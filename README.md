@@ -122,10 +122,10 @@ String. Sets the content placeholder of the UGC upload dialog. Default value: â€
 Object. postConfig is the object with properties showTitle, maxAttachmentsPerPost and mediaRequired.
 
 * `showTitle` - Default value is false. If set true, it will allow you to set title of the post.
-* `mediaRequired` - Possible values are true or false.
+* `mediaRequired` - Possible values are true or false
 * `maxAttachmentsPerPost` - Integer, which sets the max number of attachments per post.
-            
-            var wallView = new LiveMediaWall({
+
+        var wallView = new LiveMediaWall({
                 el: document.getElementById('wall'),
                 postConfig: {
                     maxAttachmentsPerPost: 1,
